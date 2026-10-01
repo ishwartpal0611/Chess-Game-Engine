@@ -1,0 +1,6 @@
+.DS_Store
+.vscode/
+Chess Engine/main
+*.o
+*.exe
+build/
