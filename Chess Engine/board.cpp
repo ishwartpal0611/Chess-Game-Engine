@@ -295,12 +295,5 @@ int Board:: horse_evaluation(uint64_t piece){
         -0.4, -0.2,  0.0,  0.0,   0.0,   0.0, -0.2, -0.4,   
         -0.5, -0.4, -0.4, -0.4,  -0.4,  -0.4, -0.4, -0.5,   // Top row
     };
-    
-    auto coordinates = find_coordinates(piece);
-
-    for(int row_pos, column_pos: coordinates){
-        int bit_pos = row*8 + column_pos;
-
-    }
 
 }
